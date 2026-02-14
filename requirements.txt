@@ -1,8 +1,8 @@
 fastapi
-uvicorn[standard]
+uvicorn
 numpy
 librosa
-tensorflow==2.12.0
+tensorflow
 python-multipart
 gdown
-soundfile
+
