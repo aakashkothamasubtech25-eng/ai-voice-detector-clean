@@ -9,7 +9,7 @@ import gdown
 from tensorflow.keras.models import load_model
 
 # ================= CONFIG =================
-API_KEY = "sk_guvi_demo_123456"
+API_KEY = os.getenv("API_KEY")
 
 SUPPORTED_LANGUAGES = {
     "english": "English",
