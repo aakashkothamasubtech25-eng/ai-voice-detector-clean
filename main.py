@@ -20,7 +20,7 @@ SUPPORTED_LANGUAGES = {
 }
 
 MODEL_PATH = "voice_ai_cnn_model.h5"
-MODEL_URL = "https://drive.google.com/uc?id=15aXWpMUfQkRVbt4z8KzRWB7SGvjJiJUd&confirm=t"
+MODEL_URL = "https://drive.google.com/uc?id=1by3Ienv-EI80sxZhDMMxWBHrWjnVMo4j"
 
 # ================= LOAD MODEL =================
 if not os.path.exists(MODEL_PATH) or os.path.getsize(MODEL_PATH) < 10_000_000:
